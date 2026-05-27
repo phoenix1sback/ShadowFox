@@ -23,3 +23,13 @@ elif city  in India:
     print("city is in India",India)
 else:
     print("city not found")
+
+#part 3
+city1=input("enter city 1")
+city2=input("enter a city 2")
+if city1 in India and city2 in India:
+    print("both cities are in india")
+if city1 in UAE and city2 in UAE:
+    print("both cities are in india")
+if city1 in Australia and city2 in Australia:
+    print("both cities are in india")
